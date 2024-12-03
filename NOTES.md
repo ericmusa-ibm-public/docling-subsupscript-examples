@@ -1,8 +1,10 @@
-# Missed or misrepresented superscripts and subscripts
+# docling-subsupscript-examples
+I've observed Docling making many parsing mistakes with subscripts and superscripts from PDFs, especially tables. Here are some examples with test documents and images and [NOTES](NOTES.md) on what mistakes appear in each document
 
 
-## High level conclusions
-Superscripts and subscripts, especially when in normal text, are sometimes identified correctly with Docling Convert, maybe 50% of the time. However, superscripts and subscripts within tables, e.g., in column or row headers, are rarely identified accurately.
+## High level observations
+Superscripts and subscripts when in normal text are sometimes identified incorrectly with Docling Convert, maybe 25% of the time. 
+Superscripts and subscripts within tables, e.g., in column or row headers, are rarely identified accurately.
 
 ## Documents with missing subscripts and superscripts:
 
@@ -13,7 +15,7 @@ A table from [the 2023 Michigan Potato Research Report](https://www.canr.msu.edu
 - Alltogether very rough parsing
 - Multi-level headers messed up
 - Nearly all superscripts in table missed - handful in headers correct
-- Majority of superscripts in the bottom legend *accurately* parsed
+- Majority of superscripts in the bottom legend *are accurately* parsed
 ---
 
 ### [report table 2.pdf](example_pdfs/report%20table%202.pdf)
